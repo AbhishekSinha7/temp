@@ -69,14 +69,14 @@ That's it! You should now have Docker installed and ready to use on your Ubuntu 
 create a directory with a file named dockerfile without any extension
 
 put the below text into dockerfile
-"
-```Use a base image
+
+``` #Use a base image
 FROM ubuntu:latest
 
-Set the entry point command
-ENTRYPOINT echo "Hello, World!"```
+#Set the entry point command
+ENTRYPOINT echo "Hello, World!" 
+```
 
-"
 
 build a docker container
 
