@@ -70,11 +70,11 @@ create a directory with a file named dockerfile without any extension
 
 put the below text into dockerfile
 "
-Use a base image
+```Use a base image
 FROM ubuntu:latest
 
 Set the entry point command
-ENTRYPOINT echo "Hello, World!"
+ENTRYPOINT echo "Hello, World!"```
 
 "
 
