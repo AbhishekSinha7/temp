@@ -97,13 +97,21 @@ create a directory
     CMD ["echo","Hello World"]
  
  build conatiner:
-   docker build -t image_name .
-   
+  ```
+  docker build -t image_name .
+  ```
+  
   execute container:
+  ```
   docker run --name container_name image_name
+  ```
   
   stop conatiner:
+  ```
   docker stop pythoncontainer
+  ```
   
   display all containers:
+  ```
   docker ps -a
+  ```
