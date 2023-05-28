@@ -49,4 +49,4 @@ When you create a commit, you are essentially taking a snapshot of your project 
 
 //The git push -u origin main command is used to push the current branch of your local repository to the main branch of the remote repository named origin. The -u flag tells Git to set up a tracking relationship between the local and remote branches. This means that any changes you make to the local main branch will automatically be pushed to the remote main branch, and vice versa.
 
-9. git push -u origin main
+9. git push -u origin main/master 
