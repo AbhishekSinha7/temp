@@ -132,7 +132,21 @@ CMD ["python3","main.py"]
 ~~~
 
 Build the image:
-~~~ docker build -t mypy2 . ~~~
+~~~ 
+docker build -t mypy2 . 
+~~~
 
 Run the environment
-~~~  docker run -it mypy2 ~~~
+~~~  
+docker run -it mypy2 
+~~~
+
+Save the image file:
+~~~
+docker save -o my-python-app.tar my-python-app
+~~~
+
+load the file:
+~~~
+docker load -i my-python-app.tar
+~~~
