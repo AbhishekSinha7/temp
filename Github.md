@@ -2,9 +2,9 @@ open github and create a repository
 
 //When you set your user.email and user.name in GitHub, you are identifying yourself as the author of the code in your repository. 
 This information is used to track who made changes to the code, and it can also be used to notify you of changes to the code.
-1. ```git config --global user.email "your_email@example.com"```
+1. ```git config --global user.email "abhisheksinha12377@gmail.com"```
 
-2. ```git config --global user.name "Your Name"```
+2. ```git config --global user.name "Abhishek"```
 
 open github and click on settings-> ssh and GPG keys-> generate ssh keys
   ```ssh-keygen -t rsa -b 4096 -C "abhisheksinha12377@gmail.com"```
