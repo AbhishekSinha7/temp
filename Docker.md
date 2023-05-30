@@ -119,3 +119,20 @@ create a directory
   ```
   docker ps -a
   ```
+
+
+run a python image:
+
+Dockerfile:
+~~~
+FROM python
+WORKDIR /usr/src/myapp
+COPY . /usr/src/myapp/
+CMD ["python3","main.py"]
+~~~
+
+Build the image:
+~~~ docker build -t mypy2 . ~~~
+
+Run the environment
+~~~  docker run -it mypy2 ~~~
